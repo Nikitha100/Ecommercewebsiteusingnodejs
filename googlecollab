@@ -1,0 +1,12 @@
+# Sample product data for an e-commerce app
+data = {
+    'ProductID': [1, 2, 3, 4, 5],
+    'Name': ['Laptop', 'Phone', 'Headphones', 'Monitor', 'Keyboard'],
+    'Category': ['Electronics', 'Electronics', 'Accessories', 'Electronics', 'Accessories'],
+    'Price': [1000, 500, 200, 300, 100],
+    'Stock': [10, 20, 15, 5, 30]
+}
+
+# Convert to DataFrame
+products_df = pd.DataFrame(data)
+print("Product Data:\n", products_df)
